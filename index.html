@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-List</title>
+    <link rel="stylesheet" href="./assests/css/mystyle.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Poetsen+One&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="myContainer">
+        <div class="wrapper">
+            <h3 class="title-wrapper">ToDo List</h3>
+            <form class="input-wrapper" id="input-wrapper">
+                <input type="text" id="input">
+                <button id="add-btn">Add</button>
+                <!-- <button id="more-btn">more</button> -->
+            </form>
+            <ul class="list" id="list">
+                <li><i class="fa-regular fa-square"></i>list<span class="delete"><i
+                            class="fa-solid fa-trash"></i></span></li>
+                <li class="checked"><i class="fa-solid fa-square-check"></i>list<span class="delete"><i
+                            class="fa-solid fa-trash"></i></span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

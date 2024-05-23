@@ -1,0 +1,57 @@
+:root{
+    --bgcolor01: #fca000;
+    --bgcolor02: #fff4ca;
+    --bgcolor03:#EEEFF0;
+    --textcolor01: #00142F;
+    --textcolor02: #504E63;
+    /* 天體綠Celestial Green */
+    --dscolor1_1: #b2a59f;
+    --dscolor1_2: #023459;
+    --dscolor1_3: #1e646e;
+    --dscolor1_4: #002c2f;
+    /* snowwww&sunshine */
+    --dscolor2_1: #ffefa1;
+    --dscolor2_2: #ffb21a;
+    --dscolor2_3: #876363;
+    --dscolor2_4: #414b6f;
+    /* luminous lines */
+    --dscolor3_1: #8ad5eb;
+    --dscolor3_2: #8a54a2;
+    --dscolor3_3: #5954a4;
+    --dscolor3_4: #04254e;
+    /* 維他命海vitamin sea */
+    --dscolor4_1: #0359ae;
+    --dscolor4_2: #14b09b;
+    --dscolor4_3: #ebe5d9;
+    --dscolor4_4: #cc8a56;
+    /*  亞利桑那日落Aizorna sunset */
+    --dscolor5_1: #fec804;
+    --dscolor5_2: #f26322;
+    --dscolor5_3: #7a2d59;
+    --dscolor5_4: #181b46;
+    /* 粉柔餡餅Pastel Pastries */
+    --dscolor6_1: #ffd0d6;
+    --dscolor6_2: #b7dde0;
+    --dscolor6_3: #fee19f;
+    --dscolor6_4: #735b69;
+
+
+    /* 漸層preminum dark  */
+    --dsbgcolor1: linear-gradient(to right, #434343 0%, black 100%);
+    /* 漸層Lawreancium (deepblue)  */
+    --dsbgcolor2: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* 漸層grade gray  */
+    --dsbgcolor3:linear-gradient(180deg, #2c3e50, #bdc3c7);
+    /* 漸層shadow of gray  */
+    --dsbgcolor4:linear-gradient(180deg, #bdc3c7, #2c3e50);
+
+    /*半透明？*/
+    --mybgcolor1:linear-gradient(to bottom,rgba(9,9,9,0.3),rgba(9,9,9,0.6));
+    
+
+}
+/* 背景圖片自動填滿版縮放 */
+.bg-coverimg{
+    background-position: center center;
+    background-size: cover;
+}

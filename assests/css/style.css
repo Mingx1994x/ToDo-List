@@ -1,0 +1,104 @@
+body{
+    background:linear-gradient(to bottom,var(--bgcolor02),var(--bgcolor01));
+    min-height: 100vh;
+}
+
+.myContainer{
+    background-color: white;
+    width: 400px;
+    margin: 100px auto;
+    padding: 10px 100px;
+    border-radius: 30px;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 350px;
+    width: 100%;
+}
+
+.title-wrapper{
+    position: relative;
+    left: -16px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 32px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}   
+
+.input-wrapper{
+    background-color: var(--bgcolor03);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.input-wrapper input{
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 0px;
+    flex: 1;
+    outline: none;
+}
+
+.input-wrapper button{
+    background-color: var(--dscolor2_4);
+    color: azure;
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px 12px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.list{
+    list-style: none;
+    padding: 0px;
+}
+
+.list li{
+    font-weight: 400;
+    font-size: 24px;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+
+.list li.checked{
+    text-decoration: line-through;
+}
+
+.list li i.fa-square,i.fa-square-check{
+    margin-right:5px;
+    cursor: pointer;
+}
+
+
+.list li span.delete{
+    margin-left: auto;
+    padding: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.list li i.fa-square:hover{
+    /* font-size: larger; */
+    color: var(--dscolor5_2);
+}
+
+.list li span.delete:hover{
+    /* font-size: smaller; */
+    background-color: var(--bgcolor03);
+}
+
+
+
+
