@@ -72,13 +72,24 @@ body{
     
 }
 
+.list li::before{
+    content: '';
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-image: url(../img/square-regular.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right:5px;
+    cursor: pointer;
+}
+
 .list li.checked{
     text-decoration: line-through;
 }
 
-.list li i.fa-square,i.fa-square-check{
-    margin-right:5px;
-    cursor: pointer;
+.list li.checked::before{
+    background-image: url(../img/square-check-solid.svg);
 }
 
 
@@ -87,11 +98,6 @@ body{
     padding: 5px;
     border-radius: 25px;
     cursor: pointer;
-}
-
-.list li i.fa-square:hover{
-    /* font-size: larger; */
-    color: var(--dscolor5_2);
 }
 
 .list li span.delete:hover{
